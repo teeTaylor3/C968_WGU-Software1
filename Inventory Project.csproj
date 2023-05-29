@@ -56,16 +56,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddProduct.cs">
+    <Compile Include="Interface\AddProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddProduct.Designer.cs">
+    <Compile Include="Interface\AddProduct.Designer.cs">
       <DependentUpon>AddProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main Page.cs">
+    <Compile Include="Interface\Main Page.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main Page.Designer.cs">
+    <Compile Include="Interface\Main Page.Designer.cs">
       <DependentUpon>Main Page.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Inhouse.cs" />
@@ -73,39 +73,39 @@
     <Compile Include="Model\Outsourced.cs" />
     <Compile Include="Model\Part.cs" />
     <Compile Include="Model\Product.cs" />
-    <Compile Include="ModifyParts.cs">
+    <Compile Include="Interface\ModifyParts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModifyParts.Designer.cs">
+    <Compile Include="Interface\ModifyParts.Designer.cs">
       <DependentUpon>ModifyParts.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModifyProduct.cs">
+    <Compile Include="Interface\ModifyProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModifyProduct.Designer.cs">
+    <Compile Include="Interface\ModifyProduct.Designer.cs">
       <DependentUpon>ModifyProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddPart.cs">
+    <Compile Include="Interface\AddPart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddPart.Designer.cs">
+    <Compile Include="Interface\AddPart.Designer.cs">
       <DependentUpon>AddPart.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AddProduct.resx">
+    <EmbeddedResource Include="Interface\AddProduct.resx">
       <DependentUpon>AddProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main Page.resx">
+    <EmbeddedResource Include="Interface\Main Page.resx">
       <DependentUpon>Main Page.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModifyParts.resx">
+    <EmbeddedResource Include="Interface\ModifyParts.resx">
       <DependentUpon>ModifyParts.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModifyProduct.resx">
+    <EmbeddedResource Include="Interface\ModifyProduct.resx">
       <DependentUpon>ModifyProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddPart.resx">
+    <EmbeddedResource Include="Interface\AddPart.resx">
       <DependentUpon>AddPart.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
