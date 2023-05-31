@@ -109,7 +109,7 @@ Now that you’ve created the GUI, write code to create the class structure prov
 
   H.  Add the following functionalities to the part forms, using the methods provided in the attached “UML Class Diagram”:
 
-    1.   “Add Part” form
+  1.   “Add Part” form
 
       •  select “In-House” or “Outsourced”
 
@@ -119,7 +119,7 @@ Now that you’ve created the GUI, write code to create the class structure prov
 
       •  cancel or exit out of this form and go back to the main form
 
-    2.   “Modify Part” form
+  2.   “Modify Part” form
 
       •  select “In-House” or “Outsourced”
 
